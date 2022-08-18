@@ -1,0 +1,51 @@
+import {v4 as uuidv4} from 'uuid';
+export const data = [{
+    id :  uuidv4(),
+    title : "Purple heart",
+    description : "Katniss Everdeen se porte volontaire pour prendre la place de sa jeune soeur aux Hunger Games, une compétition télévisée au cours de laquelle deux adolescents de chacun des douze districts de Panem sont choisis au hasard pour se battre jusqu'à la mort.",
+    posterUrl : "https://static01.nyt.com/images/2022/07/29/multimedia/29purple-hearts1/29purple-hearts1-mediumSquareAt3X.jpg",
+    trailer:"https://www.youtube.com/embed/mfmrPu43DF8" ,
+    rating : 5,
+  },
+  {
+    id :uuidv4(),
+    title : "The Call",
+    description : "Une tueuse en série et une autre femme, au téléphone dans une maison, à 20 ans d'intervalle. Et l'une menace le passé et la vie de l'autre pour changer son propre destin.",
+    posterUrl : "https://fr.web.img6.acsta.net/pictures/20/10/27/11/58/5614922.jpg",
+    trailer:"https://www.youtube.com/embed/hxkKeniT-0Q",
+    rating : 7,
+  },
+  {
+    
+    id :uuidv4(),
+    title : "italian job",
+    description : "Une femme et deux enfants aux yeux bandés traversent un endroit dystopique au bord d'une rivière.",
+    posterUrl : "https://m.media-amazon.com/images/M/MV5BNDYyNzYxNjYtNmYzMC00MTE0LWIwMmYtNTAyZDBjYTIxMTRhXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg",
+    trailer:"https://www.youtube.com/embed/INJ2bPFy108",
+    rating : 6,
+  },
+  {
+    id : uuidv4(),
+    title : "Taare Zameen Par",
+    description : "Un enfant rêveur et imaginatif est envoyé dans un pensionnat rigide, où un professeur d'art non conformiste l'aide à découvrir sa propre identité.",
+    posterUrl : "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQPGKG25Zi1HH4tcbEWyS3XvYrVq58aI38FO3-wRd-ffkCYfGCu",
+    trailer:"https://www.youtube.com/embed/F-PAI2HnQUo",
+    rating : 8,
+  },
+  {
+    id : uuidv4(),
+    title : "The Old Guard",
+    description : "Une petite bande soudée de mercenaires immortels, dirigée par la redoutable Andy, se bat depuis des siècles pour protéger les humains. Mais tandis que le groupe est engagé pour une mission des plus périlleuses, ses pouvoirs hors du commun sont soudain révélés au grand jour. C'est alors qu'Andy et Nile, tout dernier soldat à avoir rejoint l'équipe, doivent tout mettre en œuvre pour neutraliser leurs ennemis. Car ces derniers ne reculeront devant rien pour détourner les pouvoirs des immortels à leur profit.",
+    posterUrl : "https://fr.web.img4.acsta.net/pictures/20/05/26/09/44/5988886.jpg",
+    trailer:"https://www.youtube.com/embed/aK-X2d0lJ_s",
+    rating : 8,
+  },
+  {
+    id : uuidv4(),
+    title : "The Blind Side",
+    description : "Michael, un adolescent issu d'un milieu défavorisé, est accueilli dans une école secondaire prestigieuse grâce à un entraîneur qui fait valoir les talents sportifs du jeune homme. Michael se lie d'amitié avec un petit garçon de son collège.",
+    posterUrl:"https://m.media-amazon.com/images/M/MV5BMjEzOTE3ODM3OF5BMl5BanBnXkFtZTcwMzYyODI4Mg@@._V1_FMjpg_UX1000_.jpg",
+    trailer:"https://www.youtube.com/embed/gvqj_Tk_kuM",
+    rating : 7,
+  },
+]
